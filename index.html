@@ -106,12 +106,16 @@
             </tbody>
         </table>
         <div class="precios caso_unico"> <h4>Caso Unico <i class="far fa-question-circle"><div style="color: white;">Servicio básico de asistencia. Puede tener adicionales.</div></i></h4><h4> U$S 48</h4> </div>
-            <br>  
+        <br>  
         <div class="soporte"><h4>Para abonarse a nuestro servicio de soporte y mantenimiento de sofware escriba a soporte@sistemaslenox.com.ar</h4></div>							
-        <h4><b>Los precios expesados son por mes. Se abona el periodo completo</b></h4>
-        <h4>Los precios no incluyen IVA. Si se encuentra en Argentina se convierten a pesos al tipo de cambio vigente</h4>				
-        <h4>Los abonos no incluyen trabajos sobre base de datos</h4>
-        <h4>Todas las consultas deberán inciarse enviando un e-mail a la casilla de soporte</h4>
+        <div style="width: 90%; margin: auto;">
+
+            <h4><b>Los precios expesados son por mes. Se abona el periodo completo</b></h4>
+            <h4>Los precios no incluyen IVA. Si se encuentra en Argentina se convierten a pesos al tipo de cambio vigente</h4>				
+            <h4>Los abonos no incluyen trabajos sobre base de datos</h4>
+            <h4>Todas las consultas deberán inciarse enviando un e-mail a la casilla de soporte</h4>
+        </div>
+        <br>
 
     </div>
 </body>
@@ -125,7 +129,7 @@
        
         width: 50%;
         box-shadow: 2px 2px 2px 2px rgba(236, 4, 4, 0.966);
-        margin: 10px auto ;
+        margin:2rem auto ;
         text-align: center;
         border-radius: 15px;
     }
@@ -157,14 +161,13 @@
         border-radius: 5px;
         bottom: 18px;
         left: -57px;
-        display: hidden;
-        opacity: 0; 
+        display: none;
         margin: auto 3px;
         padding: 2px;      
         text-align:center; 
     }
     .precios i:hover div{
-        opacity: 1;
+        display: block;
     }
     .soporte{
         display: flex;
